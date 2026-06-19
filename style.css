@@ -1,101 +1,28 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f5f7fb;
+color:#222;
 }
 
-body{
-    font-family: "Segoe UI", sans-serif;
-    background:#0f172a;
-    color:white;
-    line-height:1.6;
+section{
+padding:40px;
+margin:20px;
+background:white;
+border-radius:15px;
 }
 
 .hero{
-    height:80vh;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    padding:30px;
-    background:linear-gradient(120deg,#020617,#1e3a8a);
+text-align:center;
+background:#e8f0ff;
 }
 
-.hero h1{
-    font-size:60px;
-    letter-spacing:2px;
+h1{
+font-size:40px;
 }
-
-.hero p{
-    margin-top:15px;
-    font-size:20px;
-    color:#cbd5e1;
-}
-
-
-section{
-    width:85%;
-    margin:35px auto;
-    padding:30px;
-    background:#1e293b;
-    border-radius:18px;
-    border:1px solid #334155;
-    transition:0.3s;
-}
-
-
-section:hover{
-    transform:translateY(-5px);
-}
-
 
 h2{
-    color:#38bdf8;
-    margin-bottom:15px;
-    font-size:30px;
-}
-
-
-h3{
-    color:#a5f3fc;
-    margin-top:20px;
-}
-
-
-p,li{
-    font-size:17px;
-    color:#e2e8f0;
-}
-
-
-ul{
-    padding-left:25px;
-}
-
-
-a{
-    color:#38bdf8;
-    text-decoration:none;
-    font-weight:bold;
-}
-
-
-a:hover{
-    color:white;
-}
-
-
-@media(max-width:600px){
-
-.hero h1{
-    font-size:40px;
-}
-
-section{
-    width:90%;
-}
-
+color:#0066cc;
 }
 .contact a{
     display:inline-block;
@@ -108,4 +35,8 @@ section{
 
 .contact a:hover{
     background:white;
-    }
+}
+    
+
+
+    
