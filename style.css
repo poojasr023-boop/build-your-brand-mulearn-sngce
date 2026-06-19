@@ -97,3 +97,15 @@ section{
 }
 
 }
+.contact a{
+    display:inline-block;
+    background:#38bdf8;
+    color:#0f172a;
+    padding:8px 18px;
+    border-radius:20px;
+    margin:5px;
+}
+
+.contact a:hover{
+    background:white;
+    }
